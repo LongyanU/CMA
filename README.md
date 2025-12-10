@@ -1,26 +1,11 @@
-## 📋 Project Overview
 
-## 📊 Figure Reproduction Guide
 
-### Figure Series 1: Basic Seismic Models
-| Figure | Script | Description | Output Files |
-|--------|---------|-------------|--------------|
-| 1a-1i | `figure1a_i_figure1f.m` | Basic velocity models and source signatures | `fig1a.png` - `fig1i.png` |
-
-### Figure Series 3-4: Wavefield Propagation
-| Figure Series | Generation Script | Plotting Script | Description |
-|---------------|-------------------|-----------------|-------------|
-| 3a-3f | `figure3a_3e.m` | `figure3Plot.m` | Wavefield snapshots and seismic records |
-| 4a-4f | `figure4a_4d.m` | `figure4Plot.m` | Boundary condition comparisons |
-
-### Figure Series 5-9: Advanced Applications
-| Figure Series | Generation Script | Plotting Script | Key Focus |
-|---------------|-------------------|-----------------|-----------|
-| 5a-5d | `figure5a_5b.m` | `figure5Plot2.m` | CMA-ES optimized parameters |
-| 7a-7h | `figure7a_7e.m` | `figure7Plot.m` | Complex model scenarios |
-| 8a-8g | `figure8a_8c.m` | `figure8Plot.m` | Resolution analysis |
-| 9a-9f | `figure9a_9b.m` | `figure9Plot_2.m` | Final comparisons |
-
-## 💻 Core Implementation
-
-### Essential CREWES Functions
+| Figure Series | Step Description | Files to Run |
+| :--- | :--- | :--- |
+| **Figure 1a-1i** | Run script directly to generate basic figures | `figure1a_figure1i.m` |
+| **Figure 3a-3f** | 1. Generate seismic records<br>2. Create the plot | 1. `figure3a_3e.m`<br>2. `figure3Plot.m` |
+| **Figure 4a-4f** | 1. Generate seismic records<br>2. Create the plot | 1. `figure4a_4d.m`<br>2. `figure4Plot.m` |
+| **Figure 5a-5d** | 1. Generate seismic records<br>2. Create the plot | 1. `figure5a_5b.m`<br>2. `figure5Plot2.m` |
+| **Figure 7a-7h** | 1. Generate seismic records<br>2. Create the plot | 1. `figure7a_7e.m`<br>2. `figure7Plot.m` |
+| **Figure 8a-8g** | 1. Generate seismic records<br>2. Create the plot | 1. `figure8a_8c.m`<br>2. `figure8Plot.m` |
+| **Figure 9a-9f** | 1. Generate seismic records<br>2. Create the plot | 1. `figure9a_9b.m`<br>2. `figure9Plot_2.m` |
