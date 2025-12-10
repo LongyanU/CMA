@@ -1,4 +1,6 @@
+Some functions in the package are used: CREWES Research Consortium - Free Software
 
+Important Note: The spongeABC and plotimage functions from the CREWES toolbox are used for implementing absorbing boundary conditions and plotting images. Ensure the CREWES toolbox is properly installed and configured in your MATLAB environment.
 
 | Figure Series | Step Description | Files to Run |
 | :--- | :--- | :--- |
